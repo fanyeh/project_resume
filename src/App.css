@@ -1,0 +1,45 @@
+@import './css/thumbnail.css';
+@import './css/personalInfoRow.css';
+@import './css/progressBar.css';
+@import './css/experienceContainer.css';
+@import './css/hobbyIcon.css';
+@import './css/progressRadial.css';
+
+:root {
+  --secondary: #0187ce;
+  --primary: #0aa1da;
+  --radialSize: 130px;
+  --radialBorder: 8px;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.f-primary {
+  color: var(--primary);
+}
+
+.bg-intro {
+  background-color: #576268;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.v-center {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

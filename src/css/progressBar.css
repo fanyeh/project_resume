@@ -1,0 +1,14 @@
+.progressBar {
+  width: var(--barWidth);
+  height: 0.7em;
+}
+
+.progressBar:after {
+  position: absolute;
+  content: '';
+  background-color: var(--primary);
+  width: calc(var(--barWidth) * var(--percentage));
+  height: inherit;
+  left: 0;
+  top: 0;
+}

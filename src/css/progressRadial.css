@@ -1,0 +1,18 @@
+.progressRadial {
+  position: relative;
+  border: var(--radialBorder) solid #eee;
+}
+
+.progressRadial > .radial {
+  position: absolute;
+  top: calc(var(--radialBorder) * -1);
+  left: calc(var(--radialBorder) * -1);
+  border: var(--radialBorder) solid var(--primary);
+  clip-path: inset(0px 0px 0px calc(var(--radialSize) / 2));
+}
+
+.radial {
+  width: var(--radialSize);
+  height: var(--radialSize);
+  border-radius: 100%;
+}
