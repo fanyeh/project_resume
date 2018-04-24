@@ -5,10 +5,14 @@
 @import './css/hobbyIcon.css';
 @import './css/progressRadial.css';
 
+.app {
+  width: 100%;
+}
+
 :root {
   --secondary: #0187ce;
   --primary: #0aa1da;
-  --radialSize: 130px;
+  --radialSize: 120px;
   --radialBorder: 8px;
 }
 
@@ -42,4 +46,25 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --radialSize: 140px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --radialSize: 116px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  :root {
+    --radialSize: 140px;
+    --radialBorder: 10px;
+  }
+  .app {
+    width: 70%;
+  }
 }

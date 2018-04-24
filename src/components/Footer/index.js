@@ -17,7 +17,7 @@ const icons = [
 ];
 const Footer = () => {
   return (
-    <div className="bg-primary flex justify-around pa5">
+    <div className="bg-primary flex justify-around pv5-ns pv4 ph5-l ph3-m ph2">
       {icons.map(icon => <FooterIcon icon={icon.style} link={icon.link} key={icon.style} />)}
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-const iconStyle = ['fab', 'bg-secondary', 'pa3', 'f2', 'br-100', 'white'];
+const iconStyle = ['fab', 'bg-secondary', 'pa3', 'f2-ns', 'f5', 'br-100', 'white'];
 
 const FooterIcon = props => {
   return (

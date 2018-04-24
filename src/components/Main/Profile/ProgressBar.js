@@ -3,14 +3,15 @@ import PropTypes from 'prop-types';
 
 class ProgressBar extends Component {
   render() {
+    const { percentage, name } = this.props;
     const setting = {
-      '--barWidth': this.props.width,
-      '--percentage': this.props.percentage,
+      '--barWidth': '70%',
+      '--percentage': percentage,
     };
     return (
       <div className="mb4">
-        <div className="f5 w-30 dib gray">{this.props.name}</div>
-        <div className="progressBar relative dib bg-light-gray ml2" style={setting} />
+        <div className="f5-ns f6 w-30 dib gray">{name}</div>
+        <div className="progressBar relative dib bg-light-gray " style={setting} />
       </div>
     );
   }

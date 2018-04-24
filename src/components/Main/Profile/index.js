@@ -5,7 +5,7 @@ import ProgressBar from './ProgressBar';
 import HobbyIcon from './HobbyIcon';
 const Profile = () => {
   return (
-    <div className="flex-column w-40 bg-white pl6 pr5 pv5">
+    <div className="flex-column w-40-ns w-100 bg-white pl5-l pl4 pr5-l pr4 pv5">
       <div className="mb5">
         <SectionHeader name="Personal" className="mb2" />
         <table className="collapse tl mt0">

@@ -1,6 +1,7 @@
 .progressRadial {
   position: relative;
   border: var(--radialBorder) solid #eee;
+  font-size: 0.875rem;
 }
 
 .progressRadial > .radial {
@@ -15,4 +16,10 @@
   width: var(--radialSize);
   height: var(--radialSize);
   border-radius: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .progressRadial {
+    font-size: 0.75rem;
+  }
 }

@@ -10,7 +10,7 @@ import 'tachyons';
 class App extends Component {
   render() {
     return (
-      <div className="w-70 center">
+      <div className="app center">
         <Header />
         <Intro />
         <Main />

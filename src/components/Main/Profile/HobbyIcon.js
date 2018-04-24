@@ -6,7 +6,7 @@ const HobbyIcon = props => {
       <div className="bg-primary hobbyIcon br-100 relative">
         <img src={props.src} alt="" width="55%" className="abs-center" />
       </div>
-      <div className="tc mt2 near-dark f5 gray ttc">{props.name}</div>
+      <div className="tc mt2 near-dark f5-ns f6 gray ttc">{props.name}</div>
     </div>
   );
 };

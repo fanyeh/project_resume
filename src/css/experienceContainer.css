@@ -29,3 +29,17 @@
 .experienceContainer > div {
   transform: translateY(-1px);
 }
+
+@media screen and (max-width: 767px) {
+  .experienceContainer:before {
+    --size: 32px;
+    top: -9px;
+    left: -17px;
+  }
+  .experienceContainer:after {
+    width: 14px;
+    height: 14px;
+    top: 0;
+    left: -8px;
+  }
+}
